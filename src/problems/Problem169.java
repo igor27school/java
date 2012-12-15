@@ -1,4 +1,4 @@
-package problem169;
+package problems;
 
 import java.math.BigInteger;
 import java.util.HashMap;
@@ -6,10 +6,10 @@ import java.util.HashMap;
 public class Problem169 {
 
 	private static HashMap<BigInteger, BigInteger> f_values = new HashMap<BigInteger, BigInteger>();
-	private final static BigInteger zero = BigInteger.valueOf(0l);
-	private final static BigInteger one = BigInteger.valueOf(1l);
+	private final static BigInteger zero = BigInteger.ZERO;
+	private final static BigInteger one = BigInteger.ONE;
 	private final static BigInteger two = BigInteger.valueOf(2l);
-	private final static BigInteger ten = BigInteger.valueOf(10l);
+	private final static BigInteger ten = BigInteger.TEN;
 	/**
 	 * @param args
 	 */
